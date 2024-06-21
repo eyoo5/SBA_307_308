@@ -1,0 +1,73 @@
+body{
+    display:flex;
+   justify-content: center;
+    align-items: center;
+    background: #D3CCE3;
+}
+p{
+    color:white;
+    font-family: Arial,sans-serif;
+    font-size: 2em;
+}
+
+.roundedButton {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #41295a;
+    border: none;
+    cursor: pointer;
+    font-family: Arial,sans-serif;
+}
+
+
+#login {
+    background:linear-gradient(to right,#41295a,#2F0743) ;
+    width: 18rem;
+    height: 23rem;
+    text-align: center;
+    box-shadow: 10px 10px 5px dimgray;
+    border: 1px solid black;
+    margin-top: 5rem;
+    border-radius: 10px;
+    font-family: Arial,sans-serif;
+}
+#loginForm {
+    display: inline-block;
+    padding-inline: 2em;
+}
+
+#username {
+    margin-bottom: 1em;
+    width: 10rem;
+    height: 2em;
+    text-align: center;
+
+}
+
+#password {
+    margin-bottom: 1em;
+    width: 10rem;
+    height: 2em;
+    text-align: center;
+
+}
+
+#submitLogin {
+    margin-bottom: 1em;
+    height: 2em;
+    border:transparent;
+    background:linear-gradient(to right,#D3CCE3,#E9E4F0);
+}
+
+#errorUsername{
+    color: #E9E4F0;
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+}
+
+#errorPassword{
+    color: #E9E4F0;
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/loginForm.css"/>
+</head>
+<body>
+<div id="login">
+<p>Login</p>
+<form name="loginForm" method="post"  id="loginForm" action="/user">
+    <table>
+        <tr>
+            <td>
+                <input type="text" id="username" name="username" placeholder="Enter Username" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="password" id="password" name="password" placeholder="Enter Password" required>
+                <p id="errorPassword" th:if="${error}" th:text="${error}"></p>
+            </td>
+        </tr>
+    <tr>
+        <td><button type = "submit" id="submitLogin" class="roundedButton"> Login </button>
+        </td>
+    </tr>
+    </table>
+</form>
+</div>
+<script src="/static/js/loginForm.js"></script>
+</body>
+</html>
