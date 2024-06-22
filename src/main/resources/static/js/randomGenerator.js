@@ -43,10 +43,12 @@ function loadCatImages() {
 
     //Get all image tags
     const imageElements = document.getElementsByTagName('img');
+    //loop through collection of image tags:
     for(let i =0; i < imageElements.length; i++){
         // Generate a random index to pick a random image URL
         const randomIndex = Math.floor(Math.random() * imageUrls.length);
 
+        //add the src and alt to image tage
         imageElements[i].src = imageUrls[randomIndex];
         imageElements[i].alt = "Random Cat Image";
     }
