@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dogs</title>
+    <style>
+        body{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background: #E9E4F0;
+            flex-direction: column;
+        }
+        h1{
+            margin-top: 1em;
+            color: #2F0743;
+            font-family: Arial, sans-serif;
+        }
+        .roundedButton {
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            font-family: Arial,sans-serif;
+            background: #734b6d;
+            color: #E9E4F0;
+        }
+        #imageContainer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        #imageContainer img {
+            max-width: 100%;
+            max-height: 400px;
+            margin-bottom: 10px;
+        }
+        #backButton {
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+<h1>Random Picture</h1>
+<section id="imageContainer">
+</section>
+<button onclick="loadDogImage()" class="roundedButton" style="background: #734b6d;color: #E9E4F0; font-family: Arial, sans-serif">Load Random Images</button>
+<div id="backButton">
+    <a th:href="@{/user}"  class="roundedButton" style="text-decoration: none"><strong>Back to Home</strong></a>
+</div>
+<script src="/js/randomGenerator.js"></script>
+</body>
+</html>

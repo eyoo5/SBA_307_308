@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cats</title>
+    <link rel="stylesheet" href="/css/cats.css"/>
+</head>
+<body>
+<h1>Random Picture</h1>
+<div id="container">
+<section id="imageContainer">
+    <img>
+    <img>
+    <img>
+    <img>
+</section>
+</div>
+<button onclick="loadCatImages()" class="roundedButton" style=""><strong>Load Random Images</strong></button>
+<div id="backButton">
+    <a th:href="@{/user}"  class="roundedButton" style="text-decoration: none"><strong>Back to Home</strong></a>
+</div>
+<script src="/js/randomGenerator.js"></script>
+</body>
+</html>

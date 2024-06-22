@@ -1,10 +1,12 @@
 body{
     display:flex;
-   justify-content: center;
+    justify-content: center;
     align-items: center;
     background: #D3CCE3;
+    flex-direction: column;
 }
 p{
+    margin-top: 2em;
     color:white;
     font-family: Arial,sans-serif;
     font-size: 2em;
@@ -20,54 +22,39 @@ p{
     font-family: Arial,sans-serif;
 }
 
-
-#login {
-    background:linear-gradient(to right,#41295a,#2F0743) ;
-    width: 18rem;
-    height: 23rem;
+#selectContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to bottom,#734b6d,#42275a) ;
+    width: 20rem;
+    height: 18rem;
     text-align: center;
     box-shadow: 10px 10px 5px dimgray;
     border: 1px solid black;
-    margin-top: 5rem;
+    margin-top: 2rem;
     border-radius: 10px;
     font-family: Arial,sans-serif;
 }
-#loginForm {
-    display: inline-block;
-    padding-inline: 2em;
-}
 
-#email {
+#randomPicture {
     margin-bottom: 1em;
     width: 10rem;
-    height: 2em;
+    height: 3em;
+    font-size: large;
     text-align: center;
-
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
 }
 
-#password {
-    margin-bottom: 1em;
-    width: 10rem;
-    height: 2em;
-    text-align: center;
-
-}
-
-#submitLogin {
-    margin-bottom: 1em;
-    height: 2em;
+#submitSelect {
+    height: 3rem;
     border:transparent;
     background:linear-gradient(to right,#D3CCE3,#E9E4F0);
+    text-align: center;
+    color: #41295a;
+    font-family: Arial, sans-serif;
 }
 
-#errorUsername{
-    color: #E9E4F0;
-    font-family: Arial,sans-serif;
-    font-size: 15px;
-}
 
-#errorPassword{
-    color: #E9E4F0;
-    font-family: Arial,sans-serif;
-    font-size: 15px;
-}
+

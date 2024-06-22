@@ -15,8 +15,8 @@ public class UserController {
 
     // validating request from form => then it redirects to  /user endpoint.
     @PostMapping("/user")
-    public String loginPost(@RequestParam String username, @RequestParam String password, Model model) {
-        if(username.equals("eyoo") && password.equals("123")) {
+    public String loginPost(@RequestParam String email, @RequestParam String password, Model model) {
+        if(email.equals("eyoo@gmail.com") && password.equals("123")) {
             return "redirect:/user";
         }else{
             model.addAttribute("error","Incorrect username or password");

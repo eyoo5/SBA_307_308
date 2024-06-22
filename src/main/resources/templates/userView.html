@@ -1,10 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>userView</title>
+    <link rel="stylesheet" href="/css/userView.css"/>
 </head>
 <body>
-<p>I am eyoo</p>
+<p><strong>What type of pictures would you like to generate today?</strong></p>
+<div id="selectContainer">
+    <form th:action="@{/animals}" method="post">
+    <table >
+        <tr>
+            <td>
+            <select name="randomPictures" id="randomPicture" required>
+                <option value=""> Select Category </option>
+                <option value="dogs">Dogs</option>
+                <option value="cats">Cats</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit" id="submitSelect" class="roundedButton"><strong>submit</strong></button>
+            </td>
+        </tr>
+    </table>
+    </form>
+</div>
 </body>
 </html>
