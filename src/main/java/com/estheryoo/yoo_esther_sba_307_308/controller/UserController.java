@@ -19,7 +19,7 @@ public class UserController {
         if(email.equals("eyoo@gmail.com") && password.equals("123")) {
             return "redirect:/user";
         }else{
-            model.addAttribute("error","Incorrect username or password");
+            model.addAttribute("error","Incorrect email or password");
             return "/login";//return with error page with error message
         }
     }
