@@ -4,7 +4,12 @@ function loadDogImage() {
         "https://randompicturegenerator.com/img/dog-generator/ga909edd1f3f716f9d9df2eaa451d63628c57b2fffc7921460641327ac3c345706c293664fa0fca146ee84311578a4ea9_640.jpg",
         "https://randompicturegenerator.com/img/dog-generator/g55e9922a6fed0a1241e3f727698432e8101105e21feadac426898693e200f73fb1672892ba68e86ba10af641f035bf5f_640.jpg",
         "https://randompicturegenerator.com/img/dog-generator/gdfcd9e9c7d85646c8df6eb3ddf9b31ce216094f5912d22ca2b416d6f303d93ae696fc29ee4de3f603c837beedaf4c57e_640.jpg",
-        "https://randompicturegenerator.com/img/dog-generator/g3e6fbc7412aa495257892bc4898b7798e06e2f56617e789e7454626201a8e9e23e24447764138237ceb0662d988781df_640.jpg"
+        "https://randompicturegenerator.com/img/dog-generator/g3e6fbc7412aa495257892bc4898b7798e06e2f56617e789e7454626201a8e9e23e24447764138237ceb0662d988781df_640.jpg",
+        "https://randompicturegenerator.com/img/dog-generator/g10ebe3577abcc24b94f2cffa9d47f9d13261a291a06c8bf0833ca9ee5cedff45d84316ed9d6adb51344b3ef43c7ee12e_640.jpg",
+        "https://randompicturegenerator.com/img/dog-generator/gca6a8e6d4bece74cfd92dc632694b4462bf8aafc1364e09ceb9fc5825d66d3cb7511248a7e5cc3839ca4aedf545b90a1_640.jpg",
+        "https://randompicturegenerator.com/img/dog-generator/gd06a646a419bb8ed24b30cfc82980c102f6992c316822627648575e3a7e8b3d14002b3046b82946d8fae325cc8ecf25d_640.jpg",
+        "https://randompicturegenerator.com/img/dog-generator/g1f69a0b1a8e2e17b947575fbb461d65da3490feabc62f2465fa3d0672054f27b325ebfaf26c9e9b6bb1a67d95e067a2e_640.jpg",
+        "https://randompicturegenerator.com/img/dog-generator/g2c3e55cf37ae88354743183834f6df47261d94ed3e87eb9f11ac1196051441798e8cfe55294102b577e1e742d1d1fb38_640.jpg",
     ];
 
     const container = document.getElementById("imageContainer");
