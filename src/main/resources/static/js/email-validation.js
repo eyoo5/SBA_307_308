@@ -5,7 +5,9 @@ document.addEventListener("DOMContentLoaded", function() {
     loginForm.addEventListener("submit", function(event) {
         if (!isValidEmail(emailInput.value)) {
             event.preventDefault(); // Prevent form submission
-            alert("Please enter a valid email address.");
+            // alert("Please enter a valid email address.");
+            document.getElementById("email-error").innerText = "Please enter a valid email address."
+
         }
     });
 

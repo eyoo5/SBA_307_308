@@ -4,11 +4,7 @@ body{
     align-items: center;
     background: #D3CCE3;
 }
-p{
-    color:white;
-    font-family: Arial,sans-serif;
-    font-size: 2em;
-}
+
 
 .roundedButton {
     border-radius: 5px;
@@ -19,7 +15,6 @@ p{
     cursor: pointer;
     font-family: Arial,sans-serif;
 }
-
 
 #login {
     background:linear-gradient(to right,#41295a,#2F0743) ;
@@ -32,6 +27,13 @@ p{
     border-radius: 10px;
     font-family: Arial,sans-serif;
 }
+
+#loginHeading{
+    color:white;
+    font-family: Arial,sans-serif;
+    font-size: 2em;
+}
+
 #loginForm {
     display: inline-block;
     padding-inline: 2em;
@@ -68,6 +70,12 @@ p{
 
 #errorPassword{
     color: #E9E4F0;
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+}
+
+#email-error{
+    color:white;
     font-family: Arial,sans-serif;
     font-size: 15px;
 }
